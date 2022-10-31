@@ -47,11 +47,7 @@ function Chart({title}) {
     <Tooltip />
     <Area type="monotone" dataKey="total" stroke="#8884d8" fillOpacity={1} fill="url(#total)" />
   </AreaChart>
-   </ResponsiveContainer>
-   
-    
-    
-    </Stack>
+   </ResponsiveContainer></Stack>
     </Fragment>
   )
 }

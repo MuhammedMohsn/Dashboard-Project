@@ -22,11 +22,7 @@ function Single() {
 <Box style={{paddingLeft:"30px"}}> 
 <Typography gutterBottom style={{color:"gray"}}>Last Transactions</Typography>
 <ListItems/>
-</Box>
-
-</div>
- </div>
- </Fragment>
+</Box></div></div></Fragment>
   )
 }
 

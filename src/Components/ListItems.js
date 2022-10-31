@@ -44,10 +44,7 @@ function ListItems() {
             <TableCell align="center" className="dark_tablecell">{row.method}</TableCell>
             <TableCell align="center" className="dark_tablecell"
             style={{color:row.status==="Approved"?"green":"orange"}}
-            >{row.status}</TableCell>
-
-          </TableRow>
-        ))}
+            >{row.status}</TableCell></TableRow>))}
       </TableBody>
     </Table>
   </TableContainer>

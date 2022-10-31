@@ -136,9 +136,7 @@ export default function Navbar() {
               aria-label="show more"
               aria-haspopup="true"
               color="inherit"
-            >
-              <MoreIcon />
-            </IconButton></Box>
+            ><MoreIcon /></IconButton></Box>
         </Toolbar>
       </AppBar>
     </Box>

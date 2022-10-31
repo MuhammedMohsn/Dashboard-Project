@@ -13,9 +13,7 @@ function Users() {
     <br/>
     <DataTable/>
     </div>
-    </div>
-    
-    </Fragment>
+    </div></Fragment>
   )
 }
 
