@@ -1,0 +1,16 @@
+.datatable {
+  height: 600px;
+  padding: 20px;
+}
+
+.cellWithImg {
+  display: flex;
+  align-items: center;
+}
+
+.cellWithStatus {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+

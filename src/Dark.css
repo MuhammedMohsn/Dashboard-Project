@@ -1,0 +1,73 @@
+.dark {
+  background-color: black;
+  color: gray;
+}
+
+.dark .dark_navbar {
+  color: gray;
+  background-color: black;
+}
+.dark .sidebar ul li ul li .flex {
+  color: gray;
+}
+.dark ul li:first-child ul {
+  transition: all 0.2 linear;
+}
+.dark ul li:first-child ul:hover {
+  background-color: white;
+}
+.dark ul li a{
+  color:gray;
+}
+.dark ul li a ul{
+  color: gray;
+}
+.dark ul li ul li {
+  color: gray;
+}
+.dark ul li ul li:hover {
+  background-color: white;
+}
+.dark .dark_widget {
+  background-color: black !important;
+  color: gray;
+   border:2px solid white
+}
+.dark .dark_feature {
+  color: gray;
+  background-color: black;
+}
+.dark .gray_chart {
+  color: gray;
+  background-color: black;
+}
+.dark .dark_table {
+  background-color: black;
+  border:2px solid white;
+}
+
+.dark .dark_tablecell {
+  color: gray;
+}
+.dark .new_title {
+  color: gray;
+  background-color: black;
+  border: 2px solid white;
+}
+.dark .dark_form{ 
+    background-color: black !important;
+}
+.dark .dark_form >*{
+    background-color: white;
+}
+.dark .dark_container_btn{ 
+    background-color: black !important;
+
+}
+.dark .user_info_dark{ 
+    background-color: black !important;
+    color:gray;
+    border:2px solid white !important;
+}
+.dark .dark_datagrid{background-color: black !important;
+    color:gray;}

@@ -1,0 +1,51 @@
+.sidebar {
+    height: 100%;
+    width: 25%;
+    border-right: 2px solid gray;
+    overflow: hidden;
+}
+
+.sidebar h1 {
+    text-align: center;
+    height: 20%;
+    width: 100%;
+}
+
+.icon {
+    margin-right: 20px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: blue;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul li {
+    width: 100%;
+    margin-bottom: 7px;
+    padding-left: 30px;
+    overflow: hidden;
+
+}
+ul li:first-child ul{
+    transition: all 0.2 linear;
+    padding-left: 30px;
+}
+ul li:first-child ul:hover{ 
+    background-color:rgba(128, 128, 128, 0.575)
+}
+ul li ul li{ cursor: pointer;}
+
+ul li ul li:hover{ 
+    background-color:rgba(128, 128, 128, 0.575)
+}
