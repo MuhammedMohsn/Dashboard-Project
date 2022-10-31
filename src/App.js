@@ -19,8 +19,8 @@ function App() {
             <Route index element={<Home/>} />
             <Route path="/Dashboard-Project/users">
               <Route index element={<Users />} />
-              <Route path="/Dashboard-Project/:userId" element={<Single />} />
-              <Route path="/Dashboard-Project/new" element={<New  title="Add new User"/>} />
+              <Route path=":userId" element={<Single />} />
+              <Route path="new" element={<New  title="Add new User"/>} />
             </Route>
           </Route>
         </Routes>
