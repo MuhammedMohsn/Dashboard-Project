@@ -24,7 +24,7 @@ function Sidebar() {
         <ul>
           <li>
           main
-          <Link to="/" style={{textDecoration: 'none'}}> <ul className={`${styles.flex}`}> <DashboardIcon className={`${styles.icon}`}/> Dashboard</ul>
+          <Link to="/Dashboard-Project/" style={{textDecoration: 'none'}}> <ul className={`${styles.flex}`}> <DashboardIcon className={`${styles.icon}`}/> Dashboard</ul>
           </Link>
           </li>
           <li>
