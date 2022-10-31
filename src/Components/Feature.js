@@ -16,7 +16,7 @@ function Feature() {
      </IconButton>
    </Stack>
    <Stack style={{justifyContent: 'center', alignItems: 'center'}} spacing={3}>
-   <CircularProgress variant="determinate" size={90} value={75} text="75%" thickness={1}  color="primary"  >75%</CircularProgress>
+   <CircularProgress variant="determinate" size={90} value={75} text={"75%"} thickness={1}  color="primary"  >75%</CircularProgress>
    <Typography>Total sales made today</Typography>
    <Typography > $420</Typography>
    <Typography className="text-center"> previous transactions processing last payments may not be included</Typography>

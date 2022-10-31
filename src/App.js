@@ -15,7 +15,7 @@ function App() {
       <div className={dark?dark:""}>
       <BrowserRouter>
         <Routes>
-          <Route path="/">
+          <Route path="/Dashboard-Project/">
             <Route index element={<Home/>} />
             <Route path="users">
               <Route index element={<Users />} />
