@@ -19,7 +19,7 @@ function Sidebar() {
   return (
     <Fragment>
       <div className={`${styles.sidebar}`}>
-      <h1><Link to="/" style={{textDecoration:"none",color:"red"}}>Our Dashboard</Link></h1>
+      <h1><Link to="/Dashboard-Project/" style={{textDecoration:"none",color:"red"}}>Our Dashboard</Link></h1>
       <hr/>
         <ul>
           <li>
@@ -30,8 +30,8 @@ function Sidebar() {
           <li>
             Lists
             <ul>
-              <li ><Link className={`${styles.flex}`} to="/users" ><GroupIcon className={`${styles.icon}`}/>users</Link></li>
-              <li ><Link className={`${styles.flex}`} to="/products"><QrCodeIcon className={`${styles.icon}`}/>products</Link></li>
+              <li ><Link className={`${styles.flex}`} to="/Dashboard-Project/users" ><GroupIcon className={`${styles.icon}`}/>users</Link></li>
+              <li ><Link className={`${styles.flex}`}><QrCodeIcon className={`${styles.icon}`}/>products</Link></li>
               <li ><Link to="/delivery" className={`${styles.flex}`}><DeliveryDiningIcon className={`${styles.icon}`}/>Delivery</Link></li>
             </ul>
           </li>

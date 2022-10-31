@@ -11,7 +11,7 @@ export default function DataTable() {
     let new_data=data.filter((item) => item.id !== id)
     setData(new_data);
   };
-  let viewHandler=(id)=>{navigate(`/users/${id}`)}
+  let viewHandler=(id)=>{navigate(`/Dashboard-Project/users/${id}`)}
   let actionColumns = {
     field: "Action",
     headerName: "Actions",
@@ -29,7 +29,7 @@ export default function DataTable() {
    <Fragment>
    <div className={`${styles.datatable} `}>
    <Stack style={{height:"10%",alignItems: "end"}}>
-   <Button variant="outlined" style={{width:"20%"}} onClick={()=>{navigate("/users/new")}}>Add new User</Button></Stack>
+   <Button variant="outlined" style={{width:"20%"}} onClick={()=>{navigate("/Dashboard-Project/users/new")}}>Add new User</Button></Stack>
    <DataGrid className="dark_datagrid"
      rows={data}
      columns={userColumns.concat(actionColumns)}
