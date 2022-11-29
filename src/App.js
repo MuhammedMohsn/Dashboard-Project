@@ -4,7 +4,7 @@ import darkContext from './darkContext'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './Pages/Home'
 import Users from './Pages/Users'
-import Single from './Pages/Single'
+import SingleUser from './Pages/SingleUser'
 import New from './Pages/New'
 import './Dark.css'
 function App() {
@@ -19,7 +19,7 @@ function App() {
             <Route index element={<Home/>} />
             <Route path="/Dashboard-Project/users">
               <Route index element={<Users />} />
-              <Route path=":userId" element={<Single />} />
+              <Route path=":userId" element={<SingleUser />} />
               <Route path="new" element={<New  title="Add new User"/>} />
             </Route>
           </Route>

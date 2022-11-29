@@ -1,11 +1,13 @@
 import { Avatar, Typography } from '@mui/material'
 import styles from '../CSS_modules/Components/DataTable.module.css'
+// headers of table
 export const userColumns = [
   { field: 'id', headerName: 'ID', width: 70 },
   {
     field: 'user',
     headerName: 'User',
     width: 230,
+// to put the data of user header in each row
     renderCell: (params) => {
       return (
         <div className={`${styles.cellWithImg}`}>
@@ -19,17 +21,29 @@ export const userColumns = [
       )
     },
   },
+  // to put the data of email header in each row
   {
     field: 'email',
     headerName: 'Email',
     width: 230,
+    renderCell: (params) => {
+      return (
+         <Typography> {params.row.email}</Typography>
+      )
+    },
   },
-
-  {
+// to put the data of age header in each row
+{
     field: 'age',
     headerName: 'Age',
     width: 100,
+    renderCell: (params) => {
+      return (
+         <Typography component="h6"> {params.row.age}</Typography>
+      )
+    },
   },
+  // to put the data of status header in each row
   {
     field: 'status',
     headerName: 'Status',
@@ -52,15 +66,9 @@ export const userColumns = [
         <div
           className={`${styles.cellWithStatus}`}
           style={{ color: `${status_color_styles}`,backgroundColor:`${status_Bgcolor_styles}` }}
-        >
-          {params.row.status}
-        </div>
-      )
-    },
-  },
-]
+        >{params.row.status}</div>)}}]
 
-//temporary data
+//data to fill the rows of table
 export const userRows = [
   {
     id: 1,

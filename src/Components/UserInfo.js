@@ -1,13 +1,15 @@
 import React, { Fragment } from 'react'
 import { Paper, Stack, Box, Button, Typography, Avatar } from '@mui/material'
 import { userRows } from '../Data/datatablesource'
+// userinfo used in singleuser page
 function UserInfo({ userId }) {
   let userInfo = userRows.find((user) => {
     return user.id === parseInt(userId)
   })
   return (
     <Fragment>
-      <Paper className="user_info_dark"
+      <Paper
+        className="user_info_dark"
         elevation={10}
         style={{ width: '50%', height: '350px', padding: '10px' }}
       >
